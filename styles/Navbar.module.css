@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0px;
+  left:0 ;
+  right: 0;
+  height: 130px;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ 
+}
+.logoDiv {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 70px;
+  margin: 5px;
+  background-color: rgb(134, 217, 128);
+  border-radius: 70%;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.logoTitle {
+  color: rgb(2, 26, 35);
+  font-family: 'Rubik Distressed', cursive;  max-width: 200px;
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(134, 217, 128);
+  width: 100%;
+  height: 80px;
+  
+  
+}
+.Link {
+  margin-right: 30px;
+  font-weight: 600;
+  color: rgb(3, 41, 54);
+  
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .linkContainer { 
+    display: none;
+    
+  }
+}
+

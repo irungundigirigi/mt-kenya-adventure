@@ -1,0 +1,11 @@
+.topbadge {
+    position: fixed;
+    display: fixed;
+    flex-direction: row;
+    background-color: #09352c;
+    top: 0;
+    left:0 ;
+    right: 0;
+    height: 40px;
+    color: aliceblue;
+  }
