@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import pic from "../public/mtkenya.jpg"
 
 export default function Home() {
   return (
@@ -12,6 +13,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.coverHold}>
+          <Image src={pic} />
+        </div>
+        
         
       </main>
 
